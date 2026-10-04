@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login</title>
+
+    <link rel="stylesheet" href="logo.css">
+
+</head>
+
+
+<body>
+
+<div class="login-container">
+
+    <div class="login-box">
+
+        <h1>Welcome Back</h1>
+
+        <p class="subtitle">
+            Login to your account
+        </p>
+
+
+        <form id="loginForm">
+
+
+            <!-- Email -->
+
+            <div class="input-group">
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Password -->
+
+            <div class="input-group">
+
+                <div class="password-header">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+
+                    <!-- User / Admin switch -->
+
+                    <div class="role-switch">
+
+                        <button
+                            type="button"
+                            id="userBtn"
+                            class="role-btn active"
+                        >
+                            User
+                        </button>
+
+
+                        <button
+                            type="button"
+                            id="adminBtn"
+                            class="role-btn"
+                        >
+                            Admin
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Password input -->
+
+                <div class="password-container">
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+
+
+                    <button
+                        type="button"
+                        id="showPassword"
+                        class="show-password"
+                    >
+                        Show
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Error message -->
+
+            <div
+                id="errorMessage"
+                class="error-message">
+            </div>
+
+
+            <!-- Login button -->
+
+            <button
+                type="submit"
+                class="login-button"
+            >
+                Login
+            </button>
+
+
+        </form>
+
+
+        <!-- Register -->
+
+        <p class="register-text">
+
+            Don't have an account?
+
+            <a href="reg.html">
+                Register
+            </a>
+
+        </p>
+
+
+    </div>
+
+</div>
+
+
+<script src="logs.js"></script>
+
+</body>
+
+</html>

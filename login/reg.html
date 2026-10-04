@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Register</title>
+
+    <!-- Use your existing CSS -->
+    <link rel="stylesheet" href="logo.css">
+
+</head>
+
+
+<body>
+
+<div class="login-container">
+
+    <div class="login-box">
+
+        <h1>Create Account</h1>
+
+        <p class="subtitle">
+            Create your account
+        </p>
+
+
+        <form id="registerForm">
+
+
+            <!-- Name -->
+
+            <div class="input-group">
+
+                <label for="name">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Email -->
+
+            <div class="input-group">
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+            </div>
+
+
+            <!-- Password -->
+
+            <div class="input-group">
+
+                <label for="password">
+                    Password
+                </label>
+
+                <div class="password-container">
+
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Create a password"
+                        required
+                    >
+
+                    <button
+                        type="button"
+                        id="showPassword"
+                        class="show-password"
+                    >
+                        Show
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Confirm Password -->
+
+            <div class="input-group">
+
+                <label for="confirmPassword">
+                    Confirm Password
+                </label>
+
+                <div class="password-container">
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        placeholder="Confirm your password"
+                        required
+                    >
+
+                    <button
+                        type="button"
+                        id="showConfirmPassword"
+                        class="show-password"
+                    >
+                        Show
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Error message -->
+
+            <div
+                id="errorMessage"
+                class="error-message">
+            </div>
+
+
+            <!-- Register -->
+
+            <button
+                type="submit"
+                class="login-button"
+            >
+                Register
+            </button>
+
+
+        </form>
+
+
+        <!-- Login -->
+
+        <p class="register-text">
+
+            Already have an account?
+
+            <a href="index.html">
+                Login
+            </a>
+
+        </p>
+
+
+    </div>
+
+</div>
+
+
+<script src="logs.js"></script>
+
+</body>
+
+</html>
